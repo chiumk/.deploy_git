@@ -58,7 +58,7 @@
       
         button.abstract-toggle, button.bibtex-toggle { display: none; }
         h3.abstract-toggle { cursor: auto; }">
-<meta property="og:updated_time" content="2017-03-03T01:31:44.000Z">
+<meta property="og:updated_time" content="2017-03-09T06:36:28.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Man-Kwun Chiu’s webpage">
 <meta name="twitter:description" content="Publications
@@ -78,8 +78,6 @@
 
 
 
-  <link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css" />
-
 
 
 
@@ -87,14 +85,14 @@
 <script type="text/javascript">
   var themeConfig = {
     search: {
-      enable: true,
+      enable: false,
       path: "/search.xml",
     },
     navbar: {
       enable: true
     },
     fancybox: {
-      enable: true
+      enable: false
     },
     toc: {
       enable: true
@@ -125,43 +123,7 @@
           <a class="menu-item-link" href="/">
             
             
-              Home
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/archives/">
-            
-            
-              Archives
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/tags">
-            
-            
-              Tags
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/categories">
-            
-            
-              Categories
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/aboutme">
-            
-            
-              About
+              About me
             
           </a>
         </li>
@@ -175,14 +137,6 @@
           </a>
         </li>
       
-      
-        <li class="menu-search">
-          <form>
-            <i class="iconfont icon-search" id="open-search"></i>
-            <input type="text" class="search-input" id="search-input" />
-            <i class="iconfont icon-close" id="close-search"></i>
-          </form>
-        </li>
       
     </ul>
   
@@ -205,35 +159,7 @@
       <a class="mobile-menu-item" href="/">
         
         
-          Home
-        
-      </a>
-    
-      <a class="mobile-menu-item" href="/archives/">
-        
-        
-          Archives
-        
-      </a>
-    
-      <a class="mobile-menu-item" href="/tags">
-        
-        
-          Tags
-        
-      </a>
-    
-      <a class="mobile-menu-item" href="/categories">
-        
-        
-          Categories
-        
-      </a>
-    
-      <a class="mobile-menu-item" href="/aboutme">
-        
-        
-          About
+          About me
         
       </a>
     
@@ -306,9 +232,26 @@
       <div id="journal" class="section">
         <h2 class="section-title">Journal papers</h2>
         <ul class="section-list">
+          <li id="BaffierCDKMRRU17" class="bibentry article">
+            <h4 class="title">Hanabi is NP-hard, even for cheaters who look at their cards</h4><br>
+            <span class="author">Jean-François Baffier</span>, <span class="author">Man-Kwun Chiu</span>, <span class="author">Yago Diez</span>, <span class="author">Matias Korman</span>, <span class="author">Valia Mitsou</span>, <span class="author">André van Renssen</span>, <span class="author">Marcel Roeloffzen</span>, and <span class="author">Yushi Uno</span>.<br>
+            In press with <span class="article">Theoretical Computer Science</span>.<br>
+            <button class="bibtex-toggle">BibTeX</button>
+            <div class="bibtex-container">
+              <pre class="bibtex">
+@article{BaffierCDKMRRU17,
+  author={Jean{-}Fran{\c{c}}ois Baffier and Man{-}Kwun Chiu and Yago Diez and Matias Korman and Valia Mitsou and Andr{\'{e}} van Renssen and Marcel Roeloffzen and Yushi Uno},
+  title={Hanabi is {NP}-hard, Even for Cheaters who Look at Their Cards},
+  journal={Theoretical Computer Science},
+  year={2017}
+}
+</pre>
+            </div>
+          </li>
+
           <li id="DBLP:journals/dcg/ChengC16" class="bibentry article">
             <h4 class="title">Tangent estimation from point samples</h4><br>
-            <span class="author">Siu-Wing Cheng</span> and <span class="author">Man-Kwun Chiu</span>.<br>
+            <a href="https://www.cse.ust.hk/faculty/scheng/" class="author" target="_blank" rel="external">Siu-Wing Cheng</a> and <a href="https://chiumk.github.io/" class="author">Man-Kwun Chiu</a>.<br>
             <span class="journal">Discrete & Computational Geometry</span>, <span class="volume">56</span><span class="number">(3)</span>:<span class="pages">505&ndash;557</span>, <span class="date">2016</span>.<br>
             <div class="links">
               <a href="http://dx.doi.org/10.1007/s00454-016-9809-z" target="_blank" rel="external">DOI</a>
@@ -317,7 +260,7 @@
             <div class="bibtex-container">
               <pre class="bibtex">
 @article{DBLP:journals/dcg/ChengC16,
-  author={Siu{-}Wing Cheng and Man{-}Kwun Chiu},
+  author={Cheng, Siu-Wing and Chiu, Man-Kwun},
   title={Tangent Estimation from Point Samples},
   journal={Discrete {\&amp;} Computational Geometry},
   year={2016},
@@ -337,8 +280,25 @@
       <div id="conference" class="section">
         <h2 class="section-title">Conference papers</h2>
         <ul class="section-list">
+          <li id="SoCG/ChiuMatias17" class="bibentry inproceedings">
+            <h4 class="title">High dimensional consistent digital segments</h4><br>
+            <a href="https://chiumk.github.io/" class="author">Man-Kwun Chiu</a> and <a href="http://www.dais.is.tohoku.ac.jp/~mati/" class="author" target="_blank" rel="external">Matias Korman</a>.<br>
+            Accepted to <span class="booktitle">theACM Symposium on Computational Geometry</span>.<br>
+            <button class="bibtex-toggle">BibTeX</button>
+            <div class="bibtex-container">
+              <pre class="bibtex">
+@inproceedings{SoCG/ChiuMatias17,
+  author={Chiu, Man-Kwun and Korman, Matias},
+  title={High Dimensional Consistent Digital Segments},
+  booktitle={Proceedings of theACM Symposium on Computational Geometry},
+  year={2017}
+}
+</pre>
+            </div>
+          </li>
+
           <li id="DBLP:conf/fun/BaffierCDKMRRU16" class="bibentry inproceedings">
-            <h4 class="title">Hanabi is np-complete, even for cheaters who look at their cards</h4><br>
+            <h4 class="title">Hanabi is NP-complete, even for cheaters who look at their cards</h4><br>
             <span class="author">Jean-François Baffier</span>, <span class="author">Man-Kwun Chiu</span>, <span class="author">Yago Diez</span>, <span class="author">Matias Korman</span>, <span class="author">Valia Mitsou</span>, <span class="author">André van Renssen</span>, <span class="author">Marcel Roeloffzen</span>, and <span class="author">Yushi Uno</span>.<br>
             In <span class="booktitle">8th International Conference on Fun with Algorithms, FUN 2016, June 8-10, 2016, La Maddalena, Italy</span>, <span class="pages">pages 4:1&ndash;4:17</span>, <span class="date">2016</span>.<br>
             <div class="links">
@@ -349,7 +309,7 @@
               <pre class="bibtex">
 @inproceedings{DBLP:conf/fun/BaffierCDKMRRU16,
   author={Jean{-}Fran{\c{c}}ois Baffier and Man{-}Kwun Chiu and Yago Diez and Matias Korman and Valia Mitsou and Andr{\'{e}} van Renssen and Marcel Roeloffzen and Yushi Uno},
-  title={Hanabi is NP-complete, Even for Cheaters who Look at Their Cards},
+  title={Hanabi is {NP}-complete, Even for Cheaters who Look at Their Cards},
   booktitle={8th International Conference on Fun with Algorithms, {FUN} 2016, June 8-10, 2016, La Maddalena, Italy},
   year={2016},
   pages={4:1--4:17},
@@ -433,7 +393,7 @@
 
     </div>
 
-    <p>Generated by <a href="https://bitbucket.org/Mangara/publy" target="_blank" rel="external">Publy 1.1</a>.&nbsp;&nbsp;Last modified on 3 March 2017.</p>
+    <p>Generated by <a href="https://bitbucket.org/Mangara/publy" target="_blank" rel="external">Publy 1.1</a>.&nbsp;&nbsp;Last modified on 9 March 2017.</p>
   </body>
 </html>
 
@@ -455,7 +415,7 @@
     
       
         
-          <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+          <a href="mailto:chiumk@nii.ac.jp" class="iconfont icon-email" title="email"></a>
         
       
     
@@ -493,15 +453,11 @@
   <span class="copyright-year">
     
     &copy; 
-     
-      2015 - 
     
     2017
 
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-    <span class="author">Kenny Chiu</span>
+
+    <span class="author">Kenny</span>
   </span>
 </div>
       </footer>
@@ -515,8 +471,6 @@
 
 
     
-  
-
 
 
 
@@ -525,8 +479,6 @@
     <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
   
 
-  
-    <script type="text/javascript" src="/lib/fancybox/jquery.fancybox.pack.js"></script>
   
 
     <script type="text/javascript" src="/js/src/even.js?v=2.2.x"></script>
